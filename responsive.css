@@ -1,0 +1,431 @@
+
+@media screen and (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    nav {
+        padding: 0 10px;
+    }
+
+    .nav-links {
+        padding-left: 0;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .nav-links li {
+        margin-bottom: 10px;
+    }
+
+    .hero {
+        padding: 50px 10px;
+    }
+
+    .hero h1 {
+        font-size: 1.8em;
+    }
+
+    .hero .cta {
+        padding: 12px 25px;
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .nav-links {
+        gap: 5px;
+    }
+
+    .hero h1 {
+        font-size: 1.5em;
+    }
+
+    .hero .cta {
+        padding: 10px 20px;
+        font-size: 0.9em;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .what-we-do {
+        padding: 30px;
+    }
+
+    .what-we-do h2 {
+        font-size: 1.8em;
+    }
+
+    .what-we-do p {
+        font-size: 0.9em;
+    }
+
+    .what-we-do h3 {
+        font-size: 1.3em;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .what-we-do {
+        padding: 20px;
+    }
+
+    .what-we-do h2 {
+        font-size: 1.5em;
+    }
+
+    .what-we-do p {
+        font-size: 0.8em;
+    }
+
+    .what-we-do h3 {
+        font-size: 1.1em;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .footer-content {
+        padding: 0 30px; 
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .footer-logo, .newsletter, .footer-links, .social-links {
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .newsletter input[type="email"] {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .footer-links {
+        order: 3; 
+    }
+
+    .social-links {
+        order: 2; 
+    }
+
+    .footer-logo {
+        order: 1; 
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .footer-content {
+        padding: 10px;
+    }
+
+    .footer-logo img {
+        width: 120px;
+    }
+
+    .newsletter input[type="email"] {
+        padding: 8px;
+        font-size: 0.9em;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-links .navigation, .footer-links .other-links {
+        text-align: center;
+    }
+
+    .social-links {
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .social-links a img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .footer-bottom ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-bottom ul li {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
+
+@media screen and (min-width: 768px) {
+    .service-container {
+        flex-direction: row; 
+        justify-content: space-around; 
+    }
+
+    .service-image {
+        flex: 1; 
+        margin-right: 20px; 
+    }
+
+    .service-content {
+        flex: 1;
+        text-align: left; 
+        padding: 0; 
+    }
+}
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+    .step {
+        flex-direction: row; 
+        align-items: flex-start; 
+    }
+
+    .step-number {
+        left: -26px; 
+        top: -4px; 
+    }
+
+    .step-content {
+        flex: 1; 
+        margin-left: 20px; 
+    }
+
+    .step img {
+        margin-top: 0; 
+        margin-left: 20px;
+    }
+}
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+    .story {
+        flex: 0 1 calc(50% - 20px); 
+        margin-right: 20px; 
+    }
+
+    .our-works img {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .story {
+        flex: 0 1 calc(33.33% - 20px);
+    }
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+    .transform-sales {
+        padding: 80px 40px;
+    }
+
+    .transform-sales h2 {
+        font-size: 3em;
+    }
+
+    .transform-sales p {
+        font-size: 1.2em;
+    }
+
+    .contact-info .email, .contact-info .phone {
+        font-size: 1.2em;
+    }
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-links {
+        flex: 1;
+        margin-top: 0;
+    }
+
+    .social-links {
+        flex: 1;
+        margin-top: 20px;
+    }
+
+    .footer-logo {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .newsletter {
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .newsletter input[type="email"] {
+        width: 100%;
+        max-width: 300px;
+        margin-right: 10px;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .story img {
+        height: 280px; 
+        width: 280px; 
+    }
+
+    .story {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .our-works img {
+        height: auto; 
+        width: 100%; 
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .service-item3 {
+        flex-direction: column; 
+        align-items: center; 
+        gap: 30px; 
+    }
+
+    .service-item3 .service-content3,
+    .service-item3 .service-image3 {
+        max-width: 100%; 
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .service-item2 {
+        flex-direction: column; 
+        align-items: center; 
+        gap: 30px; 
+    }
+
+    .service-image2 img {
+        max-width: 100%; 
+    }
+
+    .service-content2 {
+        max-width: 100%; 
+        text-align: center; 
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .service-item1 {
+        flex-direction: row; 
+        align-items: center; 
+    }
+
+    .service-content1 {
+        max-width: 500px; 
+        text-align: left; 
+    }
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .nav-links {
+        padding-left: 0;
+        margin-top: 20px;
+        gap: 20px;
+    }
+
+    .nav-links li {
+        margin-bottom: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        padding: 40px 20px;
+    }
+
+    .hero h1 {
+        font-size: 2em;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .hero p {
+        font-size: 1em;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .hero .cta {
+        padding: 10px 20px;
+        font-size: 0.9em;
+        margin-left: 100px;
+    }
+
+    .logo img {
+        max-width: 150px; 
+        height: auto;
+    }
+
+    .img2 {
+        max-width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+}
